@@ -432,3 +432,68 @@ h4 {
     font-size: 20px;
   }
 }
+
+@media (max-width: 668px) {
+  .MainCardDiv {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(253, 251, 249);
+    margin-top: 50px;
+  }
+  .Cards,
+  .Card2 {
+    /* border: 1px solid gray; */
+    height: 370px;
+    margin: auto;
+    width: 90%;
+    cursor: pointer;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 60px;
+  }
+  .BookDemo {
+    width: 100%;
+
+    flex-direction: column;
+
+    height: 400px;
+    padding: 10px;
+    margin-top: -20px;
+  }
+
+  .BookDemo p {
+    font-size: 16px;
+    width: 90%;
+  }
+  .BookDemo h3 {
+    font-size: 23px;
+    width: 100%;
+  }
+  .BenefitsMainDiv {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .BenefitsMainDiv h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .BenefitsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+  }
+  .BenefitsDiv p {
+    font-size: 20px;
+  }
+}

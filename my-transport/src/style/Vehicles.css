@@ -131,9 +131,9 @@ margin: 30px;
      
   }
   
-  @media (max-width: 520px) {
+  @media (max-width: 400px) {
     .vahiclesMainDiv{
-     
+        
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -151,8 +151,8 @@ margin: 30px;
 
     .parent {
         position: relative;
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         border-radius: 100%;
         /* overflow: hidden; */
         margin: auto;
@@ -172,6 +172,96 @@ margin: 30px;
         border: 1px solid rgb(173, 172, 172);  
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         width: 90%;
+        position: absolute;
+        background-color: white;
+        border-radius: 15px;
+        height: 130px;
+        margin-top: 890px;
+        margin-left: 10px;
+        display: flex;
+        gap: 10px;
+
+         
+    }
+    .imageParent{
+        
+        padding: 20px;
+        position: relative;
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        overflow: hidden;
+         
+        background-color: rgb(232, 231, 231);
+    }
+
+    .VahiclesNumbers div{
+        width: 20%;
+       cursor: pointer;
+        margin: auto;
+        color: black;
+        border-right: 3px solid gray;
+        /* padding: 10px; */
+    }
+    .VahiclesNumbers div h3{
+        color: rgb(79, 78, 78);
+        font-size: 15px;
+    }
+
+  }
+  @media (max-width: 668px) {
+    .vahiclesMainDiv{
+    
+        width: 100%;
+        /* margin-top: 170px; */
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        height: auto;
+        gap: 10px;
+    }
+    .vahiclesContentDiv{
+        width: 100%;
+        padding: 10px;
+    }
+   
+
+
+
+    .parent {
+        /* position: relative; */
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        /* overflow: hidden; */
+        margin: auto;
+        border: 1px solid red;
+      }
+      .child {
+        
+        display: none;
+      }
+      .image {
+        z-index: 0;
+        border-radius: 100%;
+        height: 100%;
+        width: 100%;
+      }
+      .imageParent{
+        
+        padding: 20px;
+        position: relative;
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        overflow: hidden;
+         
+        background-color: rgb(232, 231, 231);
+    }
+      .VahiclesNumbers{
+        border: 1px solid rgb(173, 172, 172);  
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        width: 80%;
         position: absolute;
         background-color: white;
         border-radius: 15px;
