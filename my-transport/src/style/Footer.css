@@ -1,0 +1,707 @@
+.Footer {
+  background-color: rgb(0, 49, 82);
+  padding: 0;
+  margin: 0;
+  height: auto;
+  color: white;
+}
+
+.FooterTop {
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+}
+
+.FormDiv {
+  border-radius: 10px;
+  width: 30%;
+}
+.FormDiv form {
+  padding: 20px;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  height: 80%;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.FormDiv form input {
+  width: 90%;
+  height: 50px;
+  border-radius: 5px;
+  margin: auto;
+  border-color: gray;
+}
+.FormDiv form label {
+  text-align: start;
+  font-size: 15px;
+}
+.FormDiv form textarea {
+  width: 90%;
+  /* height: 50px; */
+  border-radius: 5px;
+  margin: auto;
+  border-color: gray;
+}
+.FormDiv form button {
+  height: 50px;
+  background-color: rgb(255, 142, 43);
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  width: 90%;
+  margin: auto;
+}
+
+.FooterTopContent {
+  /*  */
+  margin-top: 60px;
+  height: 80%;
+  width: 70%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.FooterTopLocations {
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  gap: 20px;
+  justify-content: space-between;
+}
+.FooterTopLocations div {
+  /* font-size: 20px; */
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  justify-content: space-around;
+  /*  */
+}
+.FooterTopLocations div h2 {
+  /* color:red; */
+  /* font-family: graphik; */
+  font-size: 30px;
+  text-align: start;
+  letter-spacing: 1.8px;
+}
+.FooterTopLocations div p {
+  font-size: 16px;
+  color: white;
+  text-align: start;
+}
+.FooterTopContects {
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  gap: 20px;
+  justify-content: space-between;
+}
+.FooterTopContects div {
+  /* font-size: 20px; */
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: start;
+  gap: 10px;
+  /*  */
+}
+.FooterTopContects div h6 {
+  font-size: 15px;
+  color: rgb(180, 177, 177);
+  letter-spacing: 1px;
+}
+.FooterTopContects div div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* border: 3px solid black; */
+  padding: 10px 0px;
+  font-size: 15px;
+  /* justify-content: space-between; */
+}
+.FooterTopContects div div p {
+  text-align: start;
+  margin-top: 5px;
+  left: 0;
+  font-weight: bold;
+  /*  */
+  cursor: pointer;
+}
+.FooterTopContects div div img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.FooterBuotton {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 30px;
+  justify-content: space-between;
+}
+
+.FooterBuottonTags {
+  /*  */
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 10px 0px;
+  width: 70%;
+  justify-content: space-between;
+}
+.FooterBuottonTags p {
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.FooterBuottonTags p:hover {
+  /* font-size: 17px; */
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: rgb(205, 202, 202);
+}
+.FooterBuottonSocal {
+  display: flex;
+
+  flex-direction: row;
+}
+.FooterBuottonSocal div {
+  display: flex;
+
+  flex-direction: row;
+}
+.FooterBuottonSocal div img {
+  width: 50%;
+  height: 50px;
+  border-radius: 50%;
+}
+.FooterBuottonSocal div img:hover{
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.playStorDiv {
+  width: 100px;
+  /* border: 1px solid red; */
+}
+.playStor {
+  width: 150px;
+}
+
+
+.FooterEnd{
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.FooterEndPolicy{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.FooterEndPolicy p{
+  font-size: 15px;
+  color: gray;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.FooterEndPolicy p:hover{
+  color: white;
+  cursor: pointer;
+}
+.FooterEndCR{
+  /* border: 1px solid red; */
+}
+.FooterEndCR p{
+font-size: 12px;
+margin-top: 10px;
+letter-spacing: 1px;
+}
+@media (max-width: 1080px) {
+  .FooterTop {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+  }
+  .FormDiv {
+    margin: auto;
+
+    width: 100%;
+  }
+
+  .FormDiv form {
+    padding: 20px;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  .FooterTopContent {
+    /*  */
+    margin-top: 60px;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .FooterTopContects div {
+    /* font-size: 20px; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    gap: 10px;
+  }
+  .FooterTopContects {
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    width: 90%;
+    /* margin: auto; */
+    justify-content: space-between;
+  }
+
+  .FooterTopLocations {
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .FooterTopLocations div {
+    /* font-size: 20px; */
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+    /*  */
+  }
+
+
+
+
+  .FooterBuotton {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    justify-content: space-between;
+  }
+  .FooterBuottonTags {
+    /*  */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 10px 30px;
+    width: 90%;
+    gap: 10px;
+    justify-content: space-between;
+    text-align: start;
+  }
+  .FooterBuottonSocal {
+    display: flex;
+  width: 100%;
+    flex-direction: row;
+  }
+  .FooterEnd{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+  }
+  .FooterEndPolicy{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0px;
+    text-align: start;
+  } 
+}
+
+@media (max-width: 998px) {
+  .FooterTop {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+  }
+  .FormDiv {
+    width: 90%;
+    margin: auto;
+  }
+
+  .FormDiv form {
+    padding: 20px;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  .FooterTopContent {
+    /*  */
+    margin-top: 60px;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .FooterTopContects div {
+    /* font-size: 20px; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    gap: 10px;
+  }
+  .FooterTopContects {
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    width: 90%;
+    /* margin: auto; */
+    justify-content: space-between;
+  }
+
+  .FooterTopLocations {
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .FooterTopLocations div {
+    /* font-size: 20px; */
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+    /*  */
+  }
+
+
+  .FooterBuotton {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    justify-content: space-between;
+  }
+  .FooterBuottonTags {
+    /*  */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 10px 30px;
+    width: 90%;
+    gap: 10px;
+    justify-content: space-between;
+    text-align: start;
+  }
+  .FooterBuottonSocal {
+    display: flex;
+  width: 100%;
+    flex-direction: row;
+  }
+  .FooterEnd{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+  }
+  .FooterEndPolicy{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0px;
+    text-align: start;
+  }
+}
+
+@media (max-width: 798px) {
+  .FooterTop {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+  }
+  .FormDiv {
+    width: 90%;
+    margin: auto;
+  }
+
+  .FormDiv form {
+    padding: 20px;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  .FooterTopContent {
+    /*  */
+    margin-top: 60px;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .FooterTopContects div {
+    /* font-size: 20px; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    gap: 10px;
+  }
+  .FooterTopContects {
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    width: 90%;
+    /* margin: auto; */
+    justify-content: space-between;
+  }
+
+  .FooterTopLocations {
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .FooterTopLocations div {
+    /* font-size: 20px; */
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+    /*  */
+  }
+
+
+
+  .FooterBuotton {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    justify-content: space-between;
+  }
+  .FooterBuottonTags {
+    /*  */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 10px 30px;
+    width: 90%;
+    gap: 10px;
+    justify-content: space-between;
+    text-align: start;
+  }
+  .FooterBuottonSocal {
+    display: flex;
+  width: 100%;
+    flex-direction: row;
+  }
+
+  .FooterEnd{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+  }
+  .FooterEndPolicy{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0px;
+    text-align: start;
+  }
+}
+
+@media (max-width: 520px) {
+  .FooterTop {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+  }
+  .FormDiv {
+    width: 90%;
+    margin: auto;
+  }
+
+  .FormDiv form {
+    padding: 20px;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  .FooterTopContent {
+    /*  */
+    margin-top: 60px;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .FooterTopContects div {
+    /* font-size: 20px; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    gap: 10px;
+  }
+  .FooterTopContects {
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    width: 90%;
+    /* margin: auto; */
+    justify-content: space-between;
+  }
+
+  .FooterTopLocations {
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .FooterTopLocations div {
+    /* border: 1px solid red; */
+    font-size: 20px;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    padding: 10px 0px;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    gap: 13px;
+    text-align: start;
+   
+  }
+
+
+
+
+
+  .FooterBuotton {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    justify-content: space-between;
+  }
+  .FooterBuottonTags {
+    /*  */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 10px 30px;
+    width: 90%;
+    gap: 10px;
+    justify-content: space-between;
+    text-align: start;
+  }
+  .FooterBuottonSocal {
+    display: flex;
+  width: 100%;
+    flex-direction: row;
+  }
+  .FooterEnd{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 20px;
+    text-align: start;
+  }
+  .FooterEndPolicy{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0px;
+    text-align: start;
+  }
+}

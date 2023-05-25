@@ -1,0 +1,208 @@
+.InvestorDiv{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+     display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    gap: 30px;
+}
+.InvestorDiv div img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.InvestorComponent{
+ background-color: rgb(248,248,248);   
+ width: 100%;
+ /* border: 1px solid red; */
+  padding: 50px 10px;
+ height: 250px;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+  
+}
+span{
+    color: blue;
+    margin: auto;
+}
+
+.MentorComponent{
+    padding: 30px 10px;
+  
+}
+.MentorComponent div{
+display: flex;
+/* border: 1px solid red; */
+justify-content: center;
+gap: 30px;
+
+ 
+}
+.MentorComponent div div{
+    
+    width: 20%;
+     
+    }
+.MentorComponent div img{
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+}
+
+
+@media (max-width: 1080px) {
+    .InvestorDiv{
+        /* border: 1px solid red; */
+        width: 90%;
+        margin: auto;
+         display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 30px;
+    }
+    .InvestorComponent{
+        background-color: rgb(248,248,248);   
+        width: 100%;
+        /* border: 1px solid red; */
+         padding: 50px 10px;
+        height: auto;
+       }
+       .MentorComponent div{
+        display: flex;
+     flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        
+         
+        }
+        .MentorComponent div div{
+    
+            width: 90%;
+             margin: auto;
+            }
+        .MentorComponent div img{
+            width: 100%;
+            cursor: pointer;
+            height: 100%;
+        }
+}
+
+@media (max-width: 998px) {
+    .InvestorDiv{
+        /* border: 1px solid red; */
+        width: 90%;
+        margin: auto;
+         display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 30px;
+    }
+    .InvestorComponent{
+        background-color: rgb(248,248,248);   
+        width: 100%;
+        /* border: 1px solid red; */
+         padding: 50px 10px;
+        height: auto;
+       }
+       .MentorComponent div{
+        display: flex;
+     flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        
+         
+        }
+        .MentorComponent div div{
+    
+            width: 90%;
+             margin: auto;
+            }
+        .MentorComponent div img{
+            width: 100%;
+            cursor: pointer;
+            height: 100%;
+        }
+}
+
+@media (max-width: 798px) {
+    .InvestorDiv{
+        /* border: 1px solid red; */
+        width: 90%;
+        margin: auto;
+         display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 30px;
+    }
+    .InvestorComponent{
+        background-color: rgb(248,248,248);   
+        width: 100%;
+        /* border: 1px solid red; */
+         padding: 50px 10px;
+        height: auto;
+       }
+       .MentorComponent div{
+        display: flex;
+     flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        
+         
+        }
+        .MentorComponent div div{
+    
+            width: 90%;
+             margin: auto;
+            }
+        .MentorComponent div img{
+            width: 100%;
+            cursor: pointer;
+            height: 100%;
+        }
+}
+
+@media (max-width: 520px) {
+    .InvestorDiv{
+        /* border: 1px solid red; */
+        width: 90%;
+        margin: auto;
+         display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 30px;
+    }
+    .InvestorComponent{
+        background-color: rgb(248,248,248);   
+        width: 100%;
+        /* border: 1px solid red; */
+         padding: 50px 10px;
+        height: auto;
+       }
+       .MentorComponent div{
+        display: flex;
+     flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        
+         
+        }
+        .MentorComponent div div{
+    
+            width: 90%;
+             margin: auto;
+            }
+        .MentorComponent div img{
+            width: 100%;
+            cursor: pointer;
+            height: 100%;
+        }
+}

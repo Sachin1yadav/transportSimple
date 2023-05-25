@@ -1,0 +1,148 @@
+.mainHome {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 70px;
+  background-color: rgb(249, 252, 255);
+}
+
+.HomeContent {
+  /* border: 1px solid black; */
+  width: 100%;
+  
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10% 5%;
+  text-align: start;
+}
+.HomeHeadLine {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.HomeTextContent {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: gray;
+  font-weight: 400;
+}
+
+.HomeButtonDiv {
+  /* border: 1px solid red; */
+}
+.HomeButtonStarted {
+  color: white;
+  width: 150px;
+  font-size: 15px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(255, 162, 0);
+  border: none;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.HomeButtonContect {
+  font-size: 15px;
+
+  width: 150px;
+  height: 50px;
+  color: rgb(255, 162, 0);
+  background-color: white;
+  border-radius: 10px;
+  border-color: rgb(255, 162, 0);
+  /* border: none; */
+  cursor: pointer;
+}
+.HomeImgDiv {
+  /* border: 1px solid blue; */
+  width: 90%;
+  height: 100%;
+}
+
+.HomeImgDiv img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+
+
+
+
+@media (max-width: 1080px) {
+    .mainHome {
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: rgb(249, 252, 255);
+      }
+      .HomeImgDiv {
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 100%;
+      }
+  }
+  
+   @media (max-width: 998px) {
+    .mainHome {
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: rgb(249, 252, 255);
+      }
+      .HomeImgDiv {
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 100%;
+      }
+     
+  }
+  
+  @media (max-width: 798px) {
+    .mainHome {
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: rgb(249, 252, 255);
+      }
+      .HomeImgDiv {
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 100%;
+      }
+     
+  }
+  
+  @media (max-width: 520px) {
+    .mainHome {
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: rgb(249, 252, 255);
+      }
+      .HomeImgDiv {
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 100%;
+      }
+  
+      
+  }
+  

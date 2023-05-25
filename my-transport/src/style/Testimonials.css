@@ -1,0 +1,434 @@
+.MainCardDiv {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: rgb(253, 251, 249);
+  margin-top: 50px;
+}
+.TestimonialDiv{
+    padding: 40px 0px 10px 0px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.Cards {
+  /* border: 1px solid gray; */
+  height: 370px;
+  margin: auto;
+  width: 30%;
+  cursor: pointer;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 10px;
+}
+.Cards p,
+.Card2 p {
+  font-size: 15px;
+  color: gray;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.Cards img,
+.Card2 img {
+  width: 80px;
+  cursor: pointer;
+  height: 80px;
+}
+.Card2 {
+  height: 400px;
+  margin: auto;
+  width: 30%;
+  padding: 30px 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+  justify-content: space-around;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 10px;
+}
+
+.Cricle {
+  /* border: 1px solid red; */
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: rgb(255, 162, 0);
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -380px;
+  display: flex;
+  cursor: pointer;
+}
+.Cricle p {
+  color: white;
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  font-weight: bolder;
+  align-items: center;
+}
+.Cricle2 {
+  /* border: 1px solid red; */
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: rgb(255, 162, 0);
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -400px;
+  display: flex;
+  cursor: pointer;
+}
+.Cricle2 p {
+  color: white;
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  font-weight: bolder;
+  align-items: center;
+}
+
+.BookDemo {
+  width: 100%;
+  background-color: rgb(70, 143, 236);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.BookDemo button {
+  background-color: rgb(255, 197, 0);
+  color: white;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  padding: 13px 10px;
+  cursor: pointer;
+  margin: auto;
+}
+.BookDemo p {
+  letter-spacing: 1.5px;
+  margin: auto;
+  font-size: 15px;
+  width: 70%;
+  color: white;
+}
+.BookDemo h3 {
+  letter-spacing: 1.5px;
+  margin: auto;
+  font-size: 23px;
+  width: 70%;
+  font-weight: bolder;
+  color: white;
+}
+
+.BenefitsMainDiv {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+.BenefitsMainDiv h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.BenefitsMainDiv h3 span {
+  color: blue;
+}
+.BenefitsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 50px;
+ 
+}
+.BenefitsDiv p {
+  font-size: 15px;
+  font-weight: bold;
+}
+.BenefitsDiv img {
+  width: 100%;
+  height: 80%;
+  cursor: pointer;
+
+}
+
+@media (max-width: 1080px) {
+    .MainCardDiv {
+        /* border: 1px solid red; */
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: rgb(253, 251, 249);
+        margin-top: 50px;
+      }
+      .Cards,
+      .Card2 {
+        /* border: 1px solid gray; */
+        height: 370px;
+        margin: auto;
+        width: 90%;
+        cursor: pointer;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+    
+        margin-bottom: 60px;
+      }
+      .BookDemo {
+        width: 100%;
+    
+        flex-direction: column;
+    
+        height: 400px;
+        padding: 10px;
+        margin-top: -20px;
+      }
+    
+      .BookDemo p {
+        font-size: 16px;
+        width: 90%;
+      }
+      .BookDemo h3 {
+        font-size: 23px;
+        width: 100%;
+      }
+      .BenefitsMainDiv {
+        /* border: 1px solid red; */
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+      }
+      .BenefitsMainDiv h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+    
+      .BenefitsDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        gap: 10px;
+      }
+      .BenefitsDiv p {
+        font-size: 20px;
+      }
+}
+
+@media (max-width: 998px) {
+    .MainCardDiv {
+        /* border: 1px solid red; */
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: rgb(253, 251, 249);
+        margin-top: 50px;
+      }
+      .Cards,
+      .Card2 {
+        /* border: 1px solid gray; */
+        height: 370px;
+        margin: auto;
+        width: 90%;
+        cursor: pointer;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+    
+        margin-bottom: 60px;
+      }
+      .BookDemo {
+        width: 100%;
+    
+        flex-direction: column;
+    
+        height: 400px;
+        padding: 10px;
+        margin-top: -20px;
+      }
+    
+      .BookDemo p {
+        font-size: 16px;
+        width: 90%;
+      }
+      .BookDemo h3 {
+        font-size: 23px;
+        width: 100%;
+      }
+      .BenefitsMainDiv {
+        /* border: 1px solid red; */
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+      }
+      .BenefitsMainDiv h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+    
+      .BenefitsDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        gap: 10px;
+      }
+      .BenefitsDiv p {
+        font-size: 20px;
+      }
+}
+
+@media (max-width: 798px) {
+    .MainCardDiv {
+        /* border: 1px solid red; */
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: rgb(253, 251, 249);
+        margin-top: 50px;
+      }
+      .Cards,
+      .Card2 {
+        /* border: 1px solid gray; */
+        height: 370px;
+        margin: auto;
+        width: 90%;
+        cursor: pointer;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+    
+        margin-bottom: 60px;
+      }
+      .BookDemo {
+        width: 100%;
+    
+        flex-direction: column;
+    
+        height: 400px;
+        padding: 10px;
+        margin-top: -20px;
+      }
+    
+      .BookDemo p {
+        font-size: 16px;
+        width: 90%;
+      }
+      .BookDemo h3 {
+        font-size: 23px;
+        width: 100%;
+      }
+      .BenefitsMainDiv {
+        /* border: 1px solid red; */
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+      }
+      .BenefitsMainDiv h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+    
+      .BenefitsDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        gap: 10px;
+      }
+      .BenefitsDiv p {
+        font-size: 20px;
+      }
+}
+
+@media (max-width: 520px) {
+  .MainCardDiv {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(253, 251, 249);
+    margin-top: 50px;
+  }
+  .Cards,
+  .Card2 {
+    /* border: 1px solid gray; */
+    height: 370px;
+    margin: auto;
+    width: 90%;
+    cursor: pointer;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 60px;
+  }
+  .BookDemo {
+    width: 100%;
+
+    flex-direction: column;
+
+    height: 400px;
+    padding: 10px;
+    margin-top: -20px;
+  }
+
+  .BookDemo p {
+    font-size: 16px;
+    width: 90%;
+  }
+  .BookDemo h3 {
+    font-size: 23px;
+    width: 100%;
+  }
+  .BenefitsMainDiv {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .BenefitsMainDiv h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .BenefitsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+  }
+  .BenefitsDiv p {
+    font-size: 20px;
+  }
+}
