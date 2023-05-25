@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../style/Home.css"
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Home = () => {
+ 
+    useEffect(() => {
+        AOS.init();
+      }, []);
   return (
     <div className='mainHome'> 
        <div className='HomeContent'>
@@ -19,7 +25,9 @@ const Home = () => {
           </div>
 
        </div>
-       <div className='HomeImgDiv'>
+       <div data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1200"  className='HomeImgDiv'>
 
         <img src="./homeIMG.PNG" alt="homeImg" />
        </div>

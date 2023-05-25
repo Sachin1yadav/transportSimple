@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../style/InvestorPage.css"
+import AOS from "aos";
+import "aos/dist/aos.css";
 const InvestorPage = () => {
+   
+    
+        useEffect(() => {
+            AOS.init();
+          }, []);
+
   return (
     <div>
   <div className='InvestorComponent'> 
@@ -26,10 +34,14 @@ const InvestorPage = () => {
 <div className='MentorComponent'>
     <h3>OUR  <span>MENTOR</span> </h3>
     <div>
-    <div>
+    <div data-aos="fade-down"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1200">
         <img src="https://www.transportsimple.com/media/partners/1-logo-par.jpg" alt="" />
     </div>
-    <div>
+    <div data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1200">
         <img src="https://www.transportsimple.com/media/partners/nsl_logo.png" alt="" />
     </div>
     </div>

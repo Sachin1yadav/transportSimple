@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../style/Testimonials.css";
-const testimonials = () => {
+import AOS from "aos";
+import "aos/dist/aos.css";
+const Testimonials = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div>
       <div className="TestimonialDiv">
@@ -8,9 +13,10 @@ const testimonials = () => {
         <h4>Worlds most visible platform</h4>
 
         <div className="MainCardDiv">
-          <div className="Cards">
+          <div data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1200" className="Cards">
             <div className="Cricle">
-              
               <p>01</p>
             </div>
 
@@ -22,7 +28,9 @@ const testimonials = () => {
             </p>
             <img src="./cord1.PNG" alt="card1" />
           </div>
-          <div className="Card2">
+          <div className="Card2" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1200">
             <div className="Cricle2">
               <p>02</p>
             </div>
@@ -33,7 +41,9 @@ const testimonials = () => {
             </p>
             <img src="./cord2.PNG" alt="card1" />
           </div>
-          <div className="Cards">
+          <div className="Cards" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1200">
             <div className="Cricle">
               {" "}
               <p>03</p>
@@ -64,19 +74,27 @@ const testimonials = () => {
           BENEFITS OF WORKING WITH <span>US</span>{" "}
         </h3>
         <div className="BenefitsDiv">
-          <div>
+          <div data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1200">
             <img src="./benifitsPic1.PNG" alt="" />
             <p>Industry Experts</p>
           </div>
-          <div>
+          <div data-aos="fade-down"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1200">
             <img src="./benifitsPic2.PNG" alt="" />
             <p>Top notch Developers</p>
           </div>
-          <div>
+          <div data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1200">
             <img src="./benifitsPic3.PNG" alt="" />
             <p>Full customer support team</p>
           </div>
-          <div>
+          <div data-aos="fade-down"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1200">
             <img src="./benifitsPic4.PNG" alt="" />
             <p>Trustworthy and reliable</p>
           </div>
@@ -86,4 +104,4 @@ const testimonials = () => {
   );
 };
 
-export default testimonials;
+export default Testimonials;
